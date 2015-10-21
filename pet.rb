@@ -185,7 +185,7 @@ until command == 'exit' || crab.cause_of_death != ''
     puts 'Сколько часиков подождать?'
     crab.wait(gets)
   when 'Уложить спать'
-    puts 'Скільки годин спати?'
+    puts 'Скіоько часиков вздремнуть?'
     crab.sleep(gets.to_i)
   when 'Гладить'
     crab.stroke
